@@ -8,7 +8,17 @@ Aprendendo criar Api Node Express
 npm init -y
 ```
 
+## Gera esqueleto do projeto
+```
+npm install express-generator -g
+```
+
+```
+express <nome do projeto>
+```
+
 # Dependencias
+
 ## Nodemon
 - Versão utilizada: 2.0.15
 - "-D" indica que é uma dependência de desenvolvimento
@@ -18,4 +28,12 @@ nodemon é uma ferramenta que ajuda reiniciando automaticamente o aplicativo qua
 ### Comando para instalação
 ```
 npm install nodemon@2.0.15 -D
+```
+
+## Express
+- Versão utilizada: 4.17.3
+
+### Comando para instalação
+```
+npm install express@4.17.3
 ```
