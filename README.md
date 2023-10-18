@@ -1,5 +1,6 @@
 # Node-Express
 Aprendendo criar Api Node Express
+- Utilizando Banco de Dados NoSQL, MongoDB
 
 # Iniciando Projeto
 
@@ -37,3 +38,14 @@ npm install nodemon@2.0.15 -D
 ```
 npm install express@4.17.3
 ```
+
+## Mongoose
+- Versão utilizada: 6.2.6
+
+### Descrição
+Mongoose é uma ferramenta de modelagem de objetos MongoDB projetada para funcionar em um ambiente assíncrono.
+
+### Comando para instalação
+```
+npm i mongoose@6.2.6
+``` 
