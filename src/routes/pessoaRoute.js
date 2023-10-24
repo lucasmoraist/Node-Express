@@ -5,5 +5,6 @@ const router = Router()
 
 router
     .get('/pessoas', PessoaController.findAll)
+    .get('/pessoas/:id', PessoaController.findById )
 
 module.exports = router
