@@ -22,13 +22,18 @@ class PessoaController {
                 }
             })
             return res.status(200).json(pessoa)
-        } catch (err) {
+        } catch (error) {
             return res.status(500).json(error.message)
         }
     }
 
     static async create(req, res) {
-
+        try {
+            const criaPessoa = await bd.Pessoas.create(req.body)
+            return res.status(200).json(criaPessoa)
+        } catch(error) {
+            return res.status(500).json(error.message)
+        }
     }
 
     static async update(req, res) {
