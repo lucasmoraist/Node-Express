@@ -58,7 +58,7 @@ npx sequelize-cli db:seed:all
 ```
 
 # Endpoints
-## Cadastrar Livro
+## Cadastrar pessoas
 `POST` /pessoas
 
 | campo | tipo | obriatório | descição
@@ -81,7 +81,7 @@ npx sequelize-cli db:seed:all
 | 200 | dados retornados no corpo da resposta
 | 404 | não foi encontrado livro com editora informada
 
-## Listar livro
+## Listar pessoas
 `GET` /pessoas/{id}
 
 ```
