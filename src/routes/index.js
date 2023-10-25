@@ -1,8 +1,8 @@
 const bodyParser = require('body-parser')
 
-const pessoas = require('./pessoasRoute')
-const niveis = require('./niveisRoute')
-const turmas = require('./turmasRoute')
+const pessoas = require('./pessoaRoute.js')
+const niveis = require('./nivelRoute.js')
+const turmas = require('./turmaRoute.js')
 
 module.exports = app => {
  app.use(

@@ -11,6 +11,22 @@ class PessoaController {
         }
     }
 
+    static async findByIdMatricula(req, res){
+        const { estudanteId, matriculaId } = req.params
+
+        try {
+            const matricula = await bd.Matriculas.findOne({
+                where: {
+                    id: Number(matriculaId),
+                    estudante_id: Number(estudanteId)
+                }// Posso utilizar do where também detro do findAll
+            })
+            return res.status(200).json(matricula)
+        } catch (error) {
+            return res.status(500).json(error.message)
+        }
+    }
+
     static async findById(req, res) {
         const { id } = req.params
 
