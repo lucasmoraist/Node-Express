@@ -13,7 +13,7 @@ module.exports = {
 			{
 				data_inicio: "2020-02-01",
 				nivel_id: 2,
-				docente_id: 5,
+				docente_id: 9,
 				createdAt: new Date(),
 				updatedAt: new Date()			
 			},
