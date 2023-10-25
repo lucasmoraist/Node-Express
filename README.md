@@ -6,7 +6,7 @@ Bem-vindo ao meu repositório de aprendizado, dedicado a explorar o mundo do Nod
 
 Aqui estão os projetos disponíveis neste repositório, cada um em sua própria branch:
 
-- [Loja de livros](#)
+- [Loja de livros](href="https://github.com/lucasmoraist/Node-Express/tree/Alura-Livro")
 - [Escola de Inglês](#)
 
 ## Como usar este repositório
