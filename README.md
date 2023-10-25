@@ -42,6 +42,7 @@ New migration was created at C:\Users\ADM\Desktop\Node-Express\src\migrations\20
 ```
 
 ### Comando de migração do sequelize 
+- Cria as tabelas no banco
 ```
 npx sequelize-cli db:migrate
 ```
