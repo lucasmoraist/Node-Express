@@ -1,6 +1,6 @@
 # Node.js & Express Learning Projects
 
-Bem-vindo ao meu repositório de aprendizado, dedicado a explorar o mundo do Node.js e Express! Neste repositório, você encontrará uma coleção de projetos e exemplos que cobrem vários aspectos dessas tecnologias. Cada projeto está em sua própria branch, permitindo que você explore e aprenda de forma isolada.
+Bem-vindo ao meu repositório de aprendizado, dedicado a explorar o mundo do Node.js e Express! Neste repositório, você encontrará alguns dos meus projetos. Cada projeto está em sua própria branch, permitindo que você explore e aprenda de forma isolada.
 
 ## Projetos
 
