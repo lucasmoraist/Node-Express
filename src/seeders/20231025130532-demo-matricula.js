@@ -6,42 +6,42 @@ module.exports = {
 			{
 				status: "confirmado",
 				estudante_id: 1,
-				turma_id: 10,
+				turma_id: 1,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
 				status: "confirmado",
 				estudante_id: 1,
-				turma_id: 18,
+				turma_id: 1,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
 				status: "confirmado",
 				estudante_id: 3,
-				turma_id: 11,
+				turma_id: 2,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
 				status: "confirmado",
 				estudante_id: 4,
-				turma_id: 11,
+				turma_id: 3,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
 				status: "cancelado",
 				estudante_id: 1,
-				turma_id: 15,
+				turma_id: 2,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
 				status: "cancelado",
 				estudante_id: 4,
-				turma_id: 9,
+				turma_id: 2,
 				createdAt: new Date(),
 				updatedAt: new Date()
 			}
