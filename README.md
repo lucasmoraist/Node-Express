@@ -25,8 +25,13 @@ npm i sequelize sequelize-cli path
 - O `id` não é criado dentro da model, porém, é criado em migrations
 - Dentro do sequelize nós criamos as reagras dos atributos, como: notNull, auto increment, PK e FK
 ```
-npx sequelize-cli model:create --name <nomeDaClasse> --attributes <atributosDaClasse>
+npx sequelize-cli model:create --name <nomeDaClasse> --attributes <atributosDaClasse>:<tipagemDoAtributo>
 ```
+#### Tipos dos atributos
+- String
+- Number
+- Boolean
+- Dateonly
 
 ### Retorno
 ```
